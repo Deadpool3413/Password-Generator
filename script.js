@@ -85,7 +85,6 @@ function generatePassword(passwordString, passwordLength) {
     password += passwordString[randomIndex];
   }
 
-  console.log(password, 'lol');
   return password;
 }
 
